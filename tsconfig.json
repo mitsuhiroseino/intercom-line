@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ES2020",
+    "module": "CommonJS",
+    "lib": ["ESNext"],
+    "rootDir": "./src",
+    "outDir": "./build",
+    "removeComments": true,
+    "importHelpers": true,
+    "moduleResolution": "node",
+    "strict": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "strictNullChecks": false,
+    "strictPropertyInitialization": false,
+    "typeRoots": ["node_modules/@types"],
+    "types": ["jest", "node"]
+  },
+  "include": ["./src"],
+  "exclude": ["*.test.*"]
+}
